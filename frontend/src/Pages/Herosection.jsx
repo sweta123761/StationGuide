@@ -27,9 +27,10 @@ const Herosection = () => {
         
         <div className='relative z-50 flex items-center justify-betweenv'>
         <div><HamburgerMenu /></div>
-        <div className='cursor-pointer'><img src={searchsvg} alt="" srcset="" /></div>
+        <div className='cursor-pointer ml-auto mr-8'>
+            <img src={searchsvg} alt="" srcset="" /></div>
         </div>
-        <h1 className='pl-4 text-2xl font-extrabold text-left text-white md:pl-40 '>Namaste !! Yatree </h1>
+        <h1 className='pl-4 text-2xl font-extrabold text-center text-white  '>Namaste !! Yatree </h1>
         <div className="relative flex items-center justify-center bg-center bg-cover herosection">
            
             <div className='relative z-10 grid justify-items-center'>

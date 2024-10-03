@@ -2,14 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
     padding: 0;
     margin: 0;
-   
-   background-image: url('../assets/mixbg.png');
+    background-image: url('../assets/mixbg.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
-    width: 100%;
+    width: 100vw; 
+    overflow-x : hidden;
+    position: relative; 
 }
-

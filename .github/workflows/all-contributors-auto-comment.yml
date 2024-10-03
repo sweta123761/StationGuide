@@ -1,0 +1,22 @@
+name: Auto Add Contributor with All Contributors Bot
+
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  add-contributor:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Create a Comment to Add Contributor
+        run: |
+          PR_AUTHOR=$(jq -r '.pull_request.user.login' < ${GITHUB_EVENT_PATH})
+          curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+               -X POST \
+               -d '{"body":"@all-contributors please add @'"$PR_AUTHOR"' for code"}' \
+               "https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments"

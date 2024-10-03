@@ -1,0 +1,86 @@
+{
+  "projectName": "StationGuide",
+  "projectOwner": "Dhairya Gothi",
+  "repoType": "github",
+  "repoHost": "https://station-guide.vercel.app/",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 30,
+  "commit": true,
+  "commitConvention": "gitmoji",
+  "contributors": [
+    {
+      "login": "dhairyagothi",
+      "name": "Dhairya Gothi",
+      "avatar_url": "https://avatars.githubusercontent.com/dhairyagothi",
+      "profile": "https://github.com/dhairyagothi",
+      "contributions": ["code"]
+    },
+    {
+      "login": "tarunkumar2005",
+      "name": "Tarun Kumar",
+      "avatar_url": "https://avatars.githubusercontent.com/tarunkumar2005",
+      "profile": "https://github.com/tarunkumar2005",
+      "contributions": ["code"]
+    },
+    {
+      "login": "ShivaniNikam1",
+      "name": "Shivani Nikam",
+      "avatar_url": "https://avatars.githubusercontent.com/ShivaniNikam1",
+      "profile": "https://github.com/ShivaniNikam1",
+      "contributions": ["code"]
+    },
+    {
+      "login": "1-SubhamSingh",
+      "name": "Subham Singh",
+      "avatar_url": "https://avatars.githubusercontent.com/1-SubhamSingh",
+      "profile": "https://github.com/1-SubhamSingh",
+      "contributions": ["code"]
+    },
+    {
+      "login": "Premkolte",
+      "name": "Prem Kolte",
+      "avatar_url": "https://avatars.githubusercontent.com/Premkolte",
+      "profile": "https://github.com/Premkolte",
+      "contributions": ["code"]
+    },
+    {
+      "login": "MihirSaiDudekula",
+      "name": "Mihir Sai Dudekula",
+      "avatar_url": "https://avatars.githubusercontent.com/MihirSaiDudekula",
+      "profile": "https://github.com/MihirSaiDudekula",
+      "contributions": ["code"]
+    },
+    {
+      "login": "RiddhiM170904",
+      "name": "Riddhi M",
+      "avatar_url": "https://avatars.githubusercontent.com/RiddhiM170904",
+      "profile": "https://github.com/RiddhiM170904",
+      "contributions": ["code"]
+    },
+    {
+      "login": "Mehtarishita",
+      "name": "Rishita Mehta",
+      "avatar_url": "https://avatars.githubusercontent.com/Mehtarishita",
+      "profile": "https://github.com/Mehtarishita",
+      "contributions": ["code"]
+    },
+    {
+      "login": "shreyad2806",
+      "name": "Shreya D",
+      "avatar_url": "https://avatars.githubusercontent.com/shreyad2806",
+      "profile": "https://github.com/shreyad2806",
+      "contributions": ["code"]
+    },
+    {
+      "login": "MrityunjaySingh09",
+      "name": "Mrityunjay Singh",
+      "avatar_url": "https://avatars.githubusercontent.com/MrityunjaySingh09",
+      "profile": "https://github.com/MrityunjaySingh09",
+      "contributions": ["code"]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "linkToUsage": true
+}

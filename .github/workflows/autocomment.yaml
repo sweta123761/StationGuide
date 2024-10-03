@@ -23,6 +23,7 @@ jobs:
         {
           "body": "🎉 Your pull request has been successfully merged! 🎉 Thank you for your valuable contribution to Station Guide. Your efforts are greatly appreciated. Feel free to reach out if you have any more contributions or if there's anything else we can assist you with. Keep up the fantastic work! 🚀"
         }
+          
         EOF
         )
         RESPONSE=$(curl -s -o response.json -w "%{http_code}" \
